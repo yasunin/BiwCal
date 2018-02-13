@@ -53,7 +53,7 @@
         <!--calcular buttom-->
         <Button
             android:id="@+id/btnExchange"
-            android:text="btnExchange"
+            android:text="CALCULATER"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
