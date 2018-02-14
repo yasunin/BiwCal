@@ -11,7 +11,7 @@
     <!--wall paper-->
     <ImageView
         android:scaleType="centerCrop"
-        android:src="@drawable/lo2"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
