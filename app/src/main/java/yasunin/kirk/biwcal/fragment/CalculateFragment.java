@@ -17,7 +17,7 @@ import yasunin.kirk.biwcal.R;
  * Created by fany on 2/13/2018.
  */
 
-public class CalculateFragment extends Fragment {
+public class CalculateFragment extends android.support.v4.app.Fragment {
 
 
     private String displayString = "";

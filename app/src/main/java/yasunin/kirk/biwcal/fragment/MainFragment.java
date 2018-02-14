@@ -26,7 +26,7 @@ public class MainFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.contentMainFragment,new MainFragment())
+                        .replace(R.id.contentMainFragment,new CalculateFragment())
                         .addToBackStack(null)
                         .commit();
             }
@@ -36,7 +36,7 @@ public class MainFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_main_biwcal,container, false);
+        View view = inflater.inflate(R.layout.fragment_mainn,container, false);
         return view;
     }
 }
